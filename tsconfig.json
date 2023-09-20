@@ -7,6 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "strictPropertyInitialization": false,
+    "strictNullChecks": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
@@ -19,6 +20,10 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
+    "typeRoots": [
+      "node_modules/@type",
+      "src/alertyfytype.d.ts"
+    ],
     "lib": [
       "es2020",
       "dom"
